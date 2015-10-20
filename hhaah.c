@@ -1,6 +1,12 @@
 #include <stdio.h>
 
 void main(void)
+
 {
-  printf("hhaah\n");
+  int i;
+  for(i=0;i<10;i++){
+    i++;
+  }
+  printf("%d\n",i);
 }
+
